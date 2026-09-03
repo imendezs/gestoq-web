@@ -1,0 +1,53 @@
+.tech {
+    padding: clamp(4rem, 10vw, 6rem) 0;
+    background: var(--bg-dark);
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr));
+    gap: clamp(0.8rem, 2.5vw, 1.5rem);
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: clamp(1rem, 3vw, 1.5rem) clamp(0.5rem, 2vw, 1rem);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    transition: all 0.3s var(--ease);
+}
+
+.tech-item:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary);
+    background: var(--bg-card-hover);
+}
+
+.tech-logo {
+    width: clamp(44px, 8vw, 56px);
+    height: clamp(44px, 8vw, 56px);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    font-weight: 800;
+}
+
+.tech-flutter { background: rgba(0, 96, 252, 0.15); color: var(--primary-light); }
+.tech-sqlite { background: rgba(52, 211, 153, 0.15); color: var(--success); }
+.tech-firebase { background: rgba(251, 146, 60, 0.15); color: var(--orange); font-size: 1.8rem; }
+.tech-material { background: rgba(167, 139, 250, 0.15); color: var(--purple); }
+.tech-mlkit { background: rgba(244, 114, 182, 0.15); color: var(--pink); }
+.tech-excel { background: rgba(52, 211, 153, 0.15); color: var(--success); }
+.tech-off { background: rgba(251, 191, 36, 0.15); color: var(--yellow); font-size: clamp(0.7rem, 2vw, 0.85rem); }
+
+.tech-item span {
+    font-size: clamp(0.75rem, 2vw, 0.85rem);
+    font-weight: 500;
+    color: var(--text-secondary);
+}
