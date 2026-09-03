@@ -1,3 +1,5 @@
 title: Gestoq
 description: Aplicación de gestión de inventario y control de stock
 lang: es
+exclude:
+  - AGENTS.md
