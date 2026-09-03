@@ -3,8 +3,10 @@
 @import 'core/buttons.css';
 @import 'core/sections.css';
 @import 'features/hero/hero.css';
+@import 'features/how-it-works/how-it-works.css';
 @import 'features/features/features.css';
 @import 'features/screens/screens.css';
+@import 'features/data-safety/data-safety.css';
 @import 'features/businesses/businesses.css';
 @import 'features/faq/faq.css';
 @import 'features/download/download.css';
