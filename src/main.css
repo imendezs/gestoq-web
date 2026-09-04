@@ -2,6 +2,7 @@
 @import 'core/reset.css';
 @import 'core/buttons.css';
 @import 'core/sections.css';
+@import 'features/lang-toggle/lang-toggle.css';
 @import 'features/hero/hero.css';
 @import 'features/how-it-works/how-it-works.css';
 @import 'features/features/features.css';

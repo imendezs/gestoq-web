@@ -1,0 +1,27 @@
+# Development server (local only)
+serve.js
+
+# AI agent instructions (not part of the site)
+AGENTS.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (if ever added locally)
+node_modules/
+package.json
+package-lock.json
+
+# Logs
+*.log
+npm-debug.log*

@@ -2,26 +2,28 @@
 ---
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gestoq - Aplicación de gestión de inventario y control de stock. Registra productos, controla entradas y salidas, escanea códigos de barras, genera reportes en PDF y Excel y mantén tu inventario organizado.">
+    <meta name="description" data-i18n-content="meta.desc.index" content="">
     <meta name="author" content="IMS Tech">
     <meta name="theme-color" content="#0060fc">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Gestoq - Gestión de inventario y control de stock">
-    <meta property="og:description" content="Gestión de inventario, control de stock, escaneo de códigos de barras, reportes PDF y Excel, copias de seguridad y más. Todo desde tu móvil, incluso sin conexión.">
+    <meta property="og:title" data-i18n-content="meta.og.title" content="">
+    <meta property="og:description" data-i18n-content="meta.og.desc" content="">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="es">
+    <meta property="og:locale" data-i18n-content="meta.og.locale" content="">
     <link rel="icon" type="image/png" href="assets/images/logo/LogoGestoq.png">
-    <title>Gestoq</title>
+    <title data-i18n="meta.title.index"></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/main.css?v=2">
+    <link rel="stylesheet" href="src/main.css?v=3">
 </head>
 <body>
+    {% include i18n-loading.html %}
+    {% include lang-toggle.html %}
     {% include hero.html %}
     {% include how-it-works.html %}
     {% include features.html %}
@@ -31,5 +33,8 @@
     {% include faq.html %}
     {% include download.html %}
     {% include footer.html %}
+    <script src="assets/js/translations-es.js"></script>
+    <script src="assets/js/translations-en.js"></script>
+    <script src="assets/js/i18n.js"></script>
 </body>
 </html>
