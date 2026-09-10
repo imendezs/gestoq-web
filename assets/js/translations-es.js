@@ -186,7 +186,7 @@ const I18N_ES = {
 
     // Privacy policy
     'privacy.title': 'Política de Privacidad',
-    'privacy.updated': 'Última actualización: 4 de septiembre de 2026',
+    'privacy.updated': 'Última actualización: 10 de septiembre de 2025',
     'privacy.intro': 'En Gestoq respetamos la privacidad de nuestros usuarios y nos comprometemos a proteger la información almacenada dentro de la aplicación. El responsable del tratamiento de los datos es IMS Tech, desarrollador de Gestoq. Esta Política de Privacidad describe cómo se recopilan, almacenan, utilizan y protegen los datos generados durante el uso de Gestoq.',
     'privacy.accept': 'Al utilizar la aplicación, aceptas las prácticas descritas en esta Política de Privacidad.',
     'privacy.s1.title': '1. Información almacenada',
@@ -285,7 +285,7 @@ const I18N_ES = {
 
     // Terms
     'terms.title': 'Términos y condiciones',
-    'terms.updated': 'Última actualización: 14 de agosto de 2026',
+    'terms.updated': 'Última actualización: 10 de septiembre de 2025',
     'terms.intro': 'Bienvenido a Gestoq. Al utilizar esta aplicación, aceptas los presentes Términos y Condiciones de uso. Si no estás de acuerdo con alguno de ellos, te recomendamos no utilizar la aplicación.',
     'terms.s1.title': '1. Objeto de la aplicación',
     'terms.s1.desc': 'Gestoq es una aplicación diseñada para facilitar la gestión de inventarios mediante el registro, organización y administración de productos, movimientos, reportes y demás información relacionada con el inventario del usuario.',
@@ -336,7 +336,7 @@ const I18N_ES = {
 
     // Data security
     'security.title': 'Seguridad de los datos',
-    'security.updated': 'Última actualización: 14 de agosto de 2026',
+    'security.updated': 'Última actualización: 10 de septiembre de 2025',
     'security.intro': 'En Gestoq entendemos la importancia de proteger la información almacenada por nuestros usuarios. Por ello, la aplicación ha sido diseñada para que los datos permanezcan bajo el control del usuario y sean utilizados únicamente para el correcto funcionamiento de la aplicación.',
     'security.s1.title': '1. Almacenamiento local',
     'security.s1.p1': 'Toda la información registrada en Gestoq se almacena localmente en el dispositivo del usuario.',
@@ -382,7 +382,7 @@ const I18N_ES = {
 
     // External services
     'external.title': 'Servicios externos',
-    'external.updated': 'Última actualización: 14 de agosto de 2026',
+    'external.updated': 'Última actualización: 10 de septiembre de 2025',
     'external.intro1': 'Gestoq utiliza algunos servicios externos con el único propósito de ofrecer determinadas funcionalidades dentro de la aplicación.',
     'external.intro2': 'Estos servicios son utilizados únicamente cuando el usuario realiza acciones específicas y en ningún caso tienen acceso a la información privada del inventario almacenada en Gestoq.',
     'external.s1.title': '1. Consulta de productos mediante código de barras',
@@ -438,7 +438,7 @@ const I18N_ES = {
     // Contact support
     'support.tag': 'Soporte',
     'support.title': 'Contacto y soporte',
-    'support.updated': 'Última actualización: 14 de agosto de 2026',
+    'support.updated': 'Última actualización: 10 de septiembre de 2025',
     'support.intro': 'En Gestoq trabajamos continuamente para ofrecer una aplicación estable, segura y fácil de utilizar. Si tienes alguna duda, encuentras un error o deseas enviarnos una sugerencia, puedes comunicarte con nosotros a través de los canales oficiales.',
     'support.s1.title': '¿En qué podemos ayudarte?',
     'support.s1.desc': 'Puedes contactarnos para:',

@@ -186,7 +186,7 @@ const I18N_EN = {
 
     // Privacy policy
     'privacy.title': 'Privacy Policy',
-    'privacy.updated': 'Last updated: September 4, 2026',
+    'privacy.updated': 'Last updated: September 10, 2025',
     'privacy.intro': 'At Gestoq we respect the privacy of our users and are committed to protecting the information stored within the app. The data controller is IMS Tech, developer of Gestoq. This Privacy Policy describes how data generated during the use of Gestoq is collected, stored, used and protected.',
     'privacy.accept': 'By using the app, you accept the practices described in this Privacy Policy.',
     'privacy.s1.title': '1. Stored information',
@@ -285,7 +285,7 @@ const I18N_EN = {
 
     // Terms
     'terms.title': 'Terms and conditions',
-    'terms.updated': 'Last updated: August 14, 2026',
+    'terms.updated': 'Last updated: September 10, 2025',
     'terms.intro': 'Welcome to Gestoq. By using this app, you accept these Terms and Conditions of use. If you do not agree with any of them, we recommend not using the app.',
     'terms.s1.title': '1. Purpose of the app',
     'terms.s1.desc': 'Gestoq is an app designed to facilitate inventory management through the registration, organization and administration of products, movements, reports and other information related to the user\'s inventory.',
@@ -336,7 +336,7 @@ const I18N_EN = {
 
     // Data security
     'security.title': 'Data security',
-    'security.updated': 'Last updated: August 14, 2026',
+    'security.updated': 'Last updated: September 10, 2025',
     'security.intro': 'At Gestoq we understand the importance of protecting the information stored by our users. Therefore, the app has been designed so that data remains under the user\'s control and is used exclusively for the correct operation of the app.',
     'security.s1.title': '1. Local storage',
     'security.s1.p1': 'All information registered in Gestoq is stored locally on the user\'s device.',
@@ -382,7 +382,7 @@ const I18N_EN = {
 
     // External services
     'external.title': 'External services',
-    'external.updated': 'Last updated: August 14, 2026',
+    'external.updated': 'Last updated: September 10, 2025',
     'external.intro1': 'Gestoq uses some external services with the sole purpose of providing certain features within the app.',
     'external.intro2': 'These services are used only when the user performs specific actions and in no case do they have access to the private inventory information stored in Gestoq.',
     'external.s1.title': '1. Product lookup via barcode',
@@ -438,7 +438,7 @@ const I18N_EN = {
     // Contact support
     'support.tag': 'Support',
     'support.title': 'Contact and support',
-    'support.updated': 'Last updated: August 14, 2026',
+    'support.updated': 'Last updated: September 10, 2025',
     'support.intro': 'At Gestoq we continuously work to offer a stable, secure and easy-to-use app. If you have any questions, find an error or wish to send us a suggestion, you can contact us through the official channels.',
     'support.s1.title': 'How can we help you?',
     'support.s1.desc': 'You can contact us to:',
