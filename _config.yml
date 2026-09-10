@@ -1,6 +1,7 @@
 title: Gestoq
 description: Aplicación de gestión de inventario y control de stock
 lang: en
+baseurl: /gestoq-web
 exclude:
   - AGENTS.md
   - serve.js

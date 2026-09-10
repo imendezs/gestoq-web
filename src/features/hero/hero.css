@@ -210,6 +210,36 @@
     animation-delay: 2s;
 }
 
+.floating-card-export {
+    top: 22%;
+    right: -8%;
+    animation-delay: 1s;
+}
+
+.floating-card-backup {
+    top: 38%;
+    left: -8%;
+    animation-delay: 3s;
+}
+
+.floating-card-multi {
+    bottom: 28%;
+    left: -7%;
+    animation-delay: 1.5s;
+}
+
+.floating-card-report {
+    bottom: 5%;
+    right: -8%;
+    animation-delay: 2.5s;
+}
+
+.floating-card-offline {
+    top: 58%;
+    right: -9%;
+    animation-delay: 0.5s;
+}
+
 @keyframes floatCard {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
@@ -227,6 +257,10 @@
 
 .floating-card-icon-green { background: rgba(52, 211, 153, 0.2); color: var(--success); }
 .floating-card-icon-orange { background: rgba(251, 146, 60, 0.2); color: var(--orange); }
+.floating-card-icon-blue { background: rgba(0, 96, 252, 0.2); color: var(--primary); }
+.floating-card-icon-purple { background: rgba(167, 139, 250, 0.2); color: var(--primary-light); }
+.floating-card-icon-cyan { background: rgba(34, 211, 238, 0.2); color: #22d3ee; }
+.floating-card-icon-pink { background: rgba(244, 114, 182, 0.2); color: #f472b6; }
 
 .floating-card-title {
     font-size: 0.8rem;
@@ -550,4 +584,15 @@
 
 .trust-item svg {
     color: var(--primary-light);
+}
+
+
+@media (max-width: 768px) {
+    .floating-card-export,
+    .floating-card-backup,
+    .floating-card-multi,
+    .floating-card-report,
+    .floating-card-offline {
+        display: none;
+    }
 }

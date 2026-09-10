@@ -35,6 +35,14 @@ const I18N_ES = {
     'hero.card.scan.title': 'Código escaneado',
     'hero.card.scan.sub': 'Coca-Cola 500ml · 3 u.',
     'hero.card.alert.title': 'Stock bajo',
+    'hero.card.export.title': 'Exportar',
+    'hero.card.backup.title': 'Respaldo',
+    'hero.card.backup.sub': 'Guardado',
+    'hero.card.multi.title': 'Multi-negocio',
+    'hero.card.multi.sub': 'negocios',
+    'hero.card.report.title': 'Reportes',
+    'hero.card.offline.title': 'Sin conexión',
+    'hero.card.offline.sub': '100% local',
     'hero.mockup.greeting': 'Dashboard',
     'hero.mockup.date': 'Resumen general',
     'hero.mockup.card1.label': 'Productos',
@@ -177,9 +185,9 @@ const I18N_ES = {
     'legal.tag': 'Legal',
 
     // Privacy policy
-    'privacy.title': 'Políticas de privacidad',
+    'privacy.title': 'Política de Privacidad',
     'privacy.updated': 'Última actualización: 4 de septiembre de 2026',
-    'privacy.intro': 'En Gestoq respetamos la privacidad de nuestros usuarios y nos comprometemos a proteger la información almacenada dentro de la aplicación. Esta Política de Privacidad describe cómo se recopilan, almacenan, utilizan y protegen los datos generados durante el uso de Gestoq.',
+    'privacy.intro': 'En Gestoq respetamos la privacidad de nuestros usuarios y nos comprometemos a proteger la información almacenada dentro de la aplicación. El responsable del tratamiento de los datos es IMS Tech, desarrollador de Gestoq. Esta Política de Privacidad describe cómo se recopilan, almacenan, utilizan y protegen los datos generados durante el uso de Gestoq.',
     'privacy.accept': 'Al utilizar la aplicación, aceptas las prácticas descritas en esta Política de Privacidad.',
     'privacy.s1.title': '1. Información almacenada',
     'privacy.s1.desc': 'Gestoq almacena únicamente la información que el usuario registra voluntariamente dentro de la aplicación, incluyendo, entre otros:',
@@ -250,10 +258,29 @@ const I18N_ES = {
     'privacy.s9.title': '9. Eliminación de datos',
     'privacy.s9.p1': 'El usuario puede eliminar toda la información almacenada dentro de Gestoq utilizando la opción correspondiente disponible en la configuración de la aplicación.',
     'privacy.s9.p2': 'Esta acción eliminará permanentemente la información registrada y no podrá deshacerse, salvo que exista una copia de seguridad previamente creada.',
-    'privacy.s10.title': '10. Cambios en esta política',
+
+    'privacy.retention.title': '10. Retención de datos',
+    'privacy.retention.p1': 'La información almacenada localmente en el dispositivo del usuario se conserva hasta que este decida eliminarla manualmente mediante las opciones disponibles en la configuración de la aplicación.',
+    'privacy.retention.p2': 'Los datos técnicos recopilados por Firebase Analytics y Firebase Crashlytics se conservan durante los períodos establecidos por los servicios de Google, los cuales pueden variar según el tipo de dato y la configuración del proyecto.',
+
+    'privacy.rights.title': '11. Derechos del usuario',
+    'privacy.rights.desc': 'Dado que Gestoq almacena toda la información localmente en tu dispositivo, tú tienes el control total sobre tus datos en todo momento:',
+    'privacy.rights.li1': 'Acceso: puedes consultar toda tu información directamente desde la aplicación en cualquier momento.',
+    'privacy.rights.li2': 'Modificación: puedes editar o corregir cualquier dato directamente desde la aplicación.',
+    'privacy.rights.li3': 'Eliminación: puedes eliminar toda la información almacenada desde la configuración de la aplicación cuando lo desees.',
+    'privacy.rights.li4': 'Exportación: puedes exportar tu información en formato Excel o crear copias de seguridad desde la aplicación.',
+    'privacy.rights.p1': 'La única información que se envía a servicios externos es la descrita en las secciones de Servicios externos y Servicios de terceros. Si tienes preguntas sobre los datos técnicos recopilados por Firebase, puedes comunicarte a través del correo indicado en la sección de contacto.',
+
+    'privacy.children.title': '12. Privacidad de menores',
+    'privacy.children.desc': 'Gestoq no está dirigida a menores de 13 años y no recopila deliberadamente información personal de niños. Si eres padre o tutor y crees que un menor nos ha proporcionado información, puedes contactarnos para solicitar su eliminación.',
+
+    'privacy.transfers.title': '13. Transferencias internacionales de datos',
+    'privacy.transfers.p1': 'Los servicios de terceros utilizados por Gestoq, como Firebase (Google), pueden procesar datos técnicos en servidores ubicados fuera de tu país de residencia, incluyendo los Estados Unidos.',
+    'privacy.transfers.p2': 'Google, como proveedor de Firebase, cumple con marcos de transferencia de datos internacionales, como las Cláusulas Contractuales Tipo aprobadas por la Unión Europea, para garantizar la protección adecuada de los datos personales transferidos.',
+    'privacy.s10.title': '14. Cambios en esta política',
     'privacy.s10.p1': 'Esta Política de Privacidad podrá actualizarse cuando Gestoq incorpore nuevas funcionalidades o cambios relacionados con el tratamiento de la información.',
     'privacy.s10.p2': 'La versión más reciente estará disponible dentro de la aplicación y en esta página.',
-    'privacy.s11.title': '11. Contacto',
+    'privacy.s11.title': '15. Contacto',
     'privacy.s11.desc': 'Si tienes preguntas relacionadas con esta Política de Privacidad, puedes comunicarte con el desarrollador a través del correo electrónico:',
 
     // Terms
@@ -296,7 +323,14 @@ const I18N_ES = {
     'terms.s12.title': '12. Modificaciones de los presentes términos',
     'terms.s12.p1': 'Los presentes Términos y Condiciones podrán modificarse en futuras versiones de Gestoq.',
     'terms.s12.p2': 'La versión vigente estará disponible dentro de la aplicación.',
-    'terms.s13.title': '13. Contacto',
+    'terms.age.title': '13. Edad mínima',
+    'terms.age.desc': 'El uso de Gestoq está destinado exclusivamente a personas mayores de 13 años. Al utilizar la aplicación, el usuario declara tener la edad mínima requerida o contar con la supervisión de un padre o tutor legal.',
+
+    'terms.governing.title': '14. Ley aplicable y jurisdicción',
+    'terms.governing.p1': 'Estos Términos y Condiciones se rigen por las leyes de la República de Colombia.',
+    'terms.governing.p2': 'Cualquier disputa relacionada con el uso de la aplicación se resolverá preferentemente mediante mediación. En caso de no alcanzar un acuerdo, las disputas se someterán a los tribunales competentes de la República de Colombia.',
+
+    'terms.s13.title': '15. Contacto',
     'terms.s13.desc': 'Si tienes preguntas relacionadas con estos Términos y Condiciones, puedes comunicarte con el desarrollador mediante los canales oficiales de contacto disponibles dentro de la aplicación.',
     'terms.accept': 'Al utilizar Gestoq, el usuario declara haber leído y aceptado los presentes Términos y Condiciones.',
 
@@ -318,6 +352,7 @@ const I18N_ES = {
     'security.s3.p1': 'Gestoq implementa mecanismos destinados a preservar la integridad de la información almacenada dentro de la aplicación.',
     'security.s3.p2': 'Sin embargo, la seguridad de los datos también depende del correcto uso del dispositivo por parte del usuario.',
     'security.s3.p3': 'Se recomienda mantener el dispositivo protegido mediante mecanismos de seguridad como PIN, contraseña, huella digital o reconocimiento facial.',
+    'security.s3.p4': 'El dispositivo del usuario cuenta con mecanismos de cifrado a nivel de sistema operativo que protegen la información almacenada localmente por Gestoq.',
     'security.s4.title': '4. Copias de seguridad',
     'security.s4.p1': 'Las copias de seguridad son generadas únicamente cuando el usuario las solicita.',
     'security.s4.p2': 'Es responsabilidad del usuario conservar dichas copias en un lugar seguro y evitar compartirlas con personas no autorizadas.',
@@ -373,6 +408,7 @@ const I18N_ES = {
     'external.s1.li16': 'Configuración del negocio',
     'external.s1.li17': 'Reportes',
     'external.s1.li18': 'Copias de seguridad',
+    'external.s1.link': 'Puedes consultar la política de privacidad de OpenFoodFacts en: https://world.openfoodfacts.org/privacy',
     'external.s2.title': '2. Conexión a Internet',
     'external.s2.p1': 'Gestoq únicamente utiliza conexión a Internet cuando una funcionalidad lo requiere, como la consulta de información pública de productos.',
     'external.s2.p2': 'El resto de las funciones de la aplicación pueden utilizarse normalmente con la información almacenada localmente en el dispositivo.',
@@ -388,7 +424,15 @@ const I18N_ES = {
     'external.s6.title': '6. Transparencia',
     'external.s6.p1': 'Gestoq se compromete a informar de manera clara cuando una funcionalidad requiera utilizar un servicio externo.',
     'external.s6.p2': 'La aplicación no utilizará servicios externos para acceder a la información privada del inventario sin el conocimiento y la autorización del usuario.',
-    'external.s7.title': '7. Contacto',
+    'external.firebase.title': '7. Servicios de Firebase',
+    'external.firebase.p1': 'Gestoq utiliza los siguientes servicios proporcionados por Google a través de Firebase:',
+    'external.firebase.analytics': 'Recopila información técnica anónima sobre el uso de la aplicación, como funciones utilizadas, tiempo de uso y tipo de dispositivo, para obtener estadísticas de uso.',
+    'external.firebase.crashlytics': 'Recopila información técnica automáticamente cuando ocurre un error inesperado en la aplicación, con el fin de identificar y corregir fallos.',
+    'external.firebase.remoteconfig': 'Descarga información de configuración remota, como la versión mínima requerida de la aplicación y el estado de mantenimiento.',
+    'external.firebase.p2': 'Estos servicios pueden recopilar información técnica del dispositivo, como el tipo de dispositivo, la versión del sistema operativo y datos de uso. No tienen acceso al contenido del inventario registrado por el usuario.',
+    'external.firebase.p3': 'Puedes consultar la política de privacidad de Google y Firebase en: https://policies.google.com/privacy',
+
+    'external.s7.title': '8. Contacto',
     'external.s7.desc': 'Si tienes preguntas relacionadas con los servicios externos utilizados por Gestoq, puedes comunicarte con el desarrollador mediante los canales oficiales de contacto disponibles dentro de la aplicación.',
 
     // Contact support

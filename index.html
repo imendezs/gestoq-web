@@ -14,12 +14,12 @@
     <meta property="og:description" data-i18n-content="meta.og.desc" content="">
     <meta property="og:type" content="website">
     <meta property="og:locale" data-i18n-content="meta.og.locale" content="">
-    <link rel="icon" type="image/png" href="assets/images/logo/LogoGestoq.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/logo/LogoGestoq.png">
     <title data-i18n="meta.title.index"></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/main.css?v=3">
+    <link rel="stylesheet" href="{{ site.baseurl }}/src/main.css?v=6">
 </head>
 <body>
     {% include i18n-loading.html %}
@@ -33,8 +33,8 @@
     {% include faq.html %}
     {% include download.html %}
     {% include footer.html %}
-    <script src="assets/js/translations-es.js"></script>
-    <script src="assets/js/translations-en.js"></script>
-    <script src="assets/js/i18n.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/translations-es.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/translations-en.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/i18n.js"></script>
 </body>
 </html>
